@@ -156,6 +156,10 @@ void triangle_phong_flat(Vec3f* pts, Vec3f* norms, Vec3f* worldPos,
     Vec2i bboxmin, bboxmax;
     bbox_of_triangle(pts, bboxmin, bboxmax);
 
+    Vec3f edge1 = worldPos[1] - worldPos[0];
+    Vec3f edge2 = worldPos[2] - worldPos[0];
+    Vec3f faceNormal = (edge1 ^ edge2).normalize();
+
     Vec2i P;
     for (P.x = bboxmin.x; P.x <= bboxmax.x; P.x++) {
         for (P.y = bboxmin.y; P.y <= bboxmax.y; P.y++) {
@@ -169,12 +173,10 @@ void triangle_phong_flat(Vec3f* pts, Vec3f* norms, Vec3f* worldPos,
             if (zb[idx] < z) {
                 zb[idx] = z;
 
-                Vec3f N = norms[0] * bc.x + norms[1] * bc.y + norms[2] * bc.z;
-                N.normalize();
 
                 Vec3f fragPos = worldPos[0] * bc.x + worldPos[1] * bc.y + worldPos[2] * bc.z;
 
-                image.set(P.x, P.y, phongColor(N, fragPos, light_dir, eyePos, albedo));
+                image.set(P.x, P.y, phongColor(faceNormal, fragPos, light_dir, eyePos, albedo));
             }
         }
     }
@@ -189,6 +191,10 @@ void triangle_phong_tex(Vec3f* pts, Vec2f* uvs, Vec3f* norms, Vec3f* worldPos,
 
     int texW = model->diffuse_width();
     int texH = model->diffuse_height();
+
+    Vec3f edge1 = worldPos[1] - worldPos[0];
+    Vec3f edge2 = worldPos[2] - worldPos[0];
+    Vec3f faceNormal = (edge1 ^ edge2).normalize();
 
     Vec2i P;
     for (P.x = bboxmin.x; P.x <= bboxmax.x; P.x++) {
@@ -211,12 +217,10 @@ void triangle_phong_tex(Vec3f* pts, Vec2f* uvs, Vec3f* norms, Vec3f* worldPos,
 
                 TGAColor albedo = model->diffuse(Vec2i(tx, ty));
 
-                Vec3f N = norms[0] * bc.x + norms[1] * bc.y + norms[2] * bc.z;
-                N.normalize();
 
                 Vec3f fragPos = worldPos[0] * bc.x + worldPos[1] * bc.y + worldPos[2] * bc.z;
 
-                image.set(P.x, P.y, phongColor(N, fragPos, light_dir, eyePos, albedo));
+                image.set(P.x, P.y, phongColor(faceNormal, fragPos, light_dir, eyePos, albedo));
             }
         }
     }
