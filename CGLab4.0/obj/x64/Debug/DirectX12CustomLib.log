@@ -1,0 +1,87 @@
+﻿  AppBase.cpp
+C:\Users\HUAWEI\Documents\CG_sem3\lab4\src\app\AppBase.h(49,55): warning C4100: "y": неиспользованный параметр
+  (компиляция исходного файла "src/app/AppBase.cpp")
+  
+C:\Users\HUAWEI\Documents\CG_sem3\lab4\src\app\AppBase.h(49,48): warning C4100: "x": неиспользованный параметр
+  (компиляция исходного файла "src/app/AppBase.cpp")
+  
+C:\Users\HUAWEI\Documents\CG_sem3\lab4\src\app\AppBase.h(49,34): warning C4100: "btnState": неиспользованный параметр
+  (компиляция исходного файла "src/app/AppBase.cpp")
+  
+C:\Users\HUAWEI\Documents\CG_sem3\lab4\src\app\AppBase.h(50,53): warning C4100: "y": неиспользованный параметр
+  (компиляция исходного файла "src/app/AppBase.cpp")
+  
+C:\Users\HUAWEI\Documents\CG_sem3\lab4\src\app\AppBase.h(50,46): warning C4100: "x": неиспользованный параметр
+  (компиляция исходного файла "src/app/AppBase.cpp")
+  
+C:\Users\HUAWEI\Documents\CG_sem3\lab4\src\app\AppBase.h(50,32): warning C4100: "btnState": неиспользованный параметр
+  (компиляция исходного файла "src/app/AppBase.cpp")
+  
+C:\Users\HUAWEI\Documents\CG_sem3\lab4\src\app\AppBase.h(51,55): warning C4100: "y": неиспользованный параметр
+  (компиляция исходного файла "src/app/AppBase.cpp")
+  
+C:\Users\HUAWEI\Documents\CG_sem3\lab4\src\app\AppBase.h(51,48): warning C4100: "x": неиспользованный параметр
+  (компиляция исходного файла "src/app/AppBase.cpp")
+  
+C:\Users\HUAWEI\Documents\CG_sem3\lab4\src\app\AppBase.h(51,34): warning C4100: "btnState": неиспользованный параметр
+  (компиляция исходного файла "src/app/AppBase.cpp")
+  
+C:\Users\HUAWEI\Documents\CG_sem3\lab4\src\app\AppBase.cpp(597,16): warning C4456: объявление "i" скрывает предыдущее локальное объявление
+      C:\Users\HUAWEI\Documents\CG_sem3\lab4\src\app\AppBase.cpp(578,10):
+       см. объявление "i"
+  
+  CubeApp.cpp
+C:\Users\HUAWEI\Documents\CG_sem3\lab4\src\app\AppBase.h(49,55): warning C4100: "y": неиспользованный параметр
+  (компиляция исходного файла "src/app/CubeApp.cpp")
+  
+C:\Users\HUAWEI\Documents\CG_sem3\lab4\src\app\AppBase.h(49,48): warning C4100: "x": неиспользованный параметр
+  (компиляция исходного файла "src/app/CubeApp.cpp")
+  
+C:\Users\HUAWEI\Documents\CG_sem3\lab4\src\app\AppBase.h(49,34): warning C4100: "btnState": неиспользованный параметр
+  (компиляция исходного файла "src/app/CubeApp.cpp")
+  
+C:\Users\HUAWEI\Documents\CG_sem3\lab4\src\app\AppBase.h(50,53): warning C4100: "y": неиспользованный параметр
+  (компиляция исходного файла "src/app/CubeApp.cpp")
+  
+C:\Users\HUAWEI\Documents\CG_sem3\lab4\src\app\AppBase.h(50,46): warning C4100: "x": неиспользованный параметр
+  (компиляция исходного файла "src/app/CubeApp.cpp")
+  
+C:\Users\HUAWEI\Documents\CG_sem3\lab4\src\app\AppBase.h(50,32): warning C4100: "btnState": неиспользованный параметр
+  (компиляция исходного файла "src/app/CubeApp.cpp")
+  
+C:\Users\HUAWEI\Documents\CG_sem3\lab4\src\app\AppBase.h(51,55): warning C4100: "y": неиспользованный параметр
+  (компиляция исходного файла "src/app/CubeApp.cpp")
+  
+C:\Users\HUAWEI\Documents\CG_sem3\lab4\src\app\AppBase.h(51,48): warning C4100: "x": неиспользованный параметр
+  (компиляция исходного файла "src/app/CubeApp.cpp")
+  
+C:\Users\HUAWEI\Documents\CG_sem3\lab4\src\app\AppBase.h(51,34): warning C4100: "btnState": неиспользованный параметр
+  (компиляция исходного файла "src/app/CubeApp.cpp")
+  
+C:\Users\HUAWEI\Documents\CG_sem3\lab4\src\app\CubeApp.cpp(8,26): warning C4100: "showCmd": неиспользованный параметр
+C:\Users\HUAWEI\Documents\CG_sem3\lab4\src\app\CubeApp.cpp(8,13): warning C4100: "cmdLine": неиспользованный параметр
+C:\Users\HUAWEI\Documents\CG_sem3\lab4\src\app\CubeApp.cpp(7,51): warning C4100: "prevInstance": неиспользованный параметр
+C:\Users\HUAWEI\Documents\CG_sem3\lab4\src\app\CubeApp.cpp(163,38): warning C4100: "gt": неиспользованный параметр
+C:\Users\HUAWEI\Documents\CG_sem3\lab4\src\app\CubeApp.cpp(242,34): warning C4100: "btnState": неиспользованный параметр
+C:\Users\HUAWEI\Documents\CG_sem3\lab4\src\app\CubeApp.cpp(250,53): warning C4100: "y": неиспользованный параметр
+C:\Users\HUAWEI\Documents\CG_sem3\lab4\src\app\CubeApp.cpp(250,46): warning C4100: "x": неиспользованный параметр
+C:\Users\HUAWEI\Documents\CG_sem3\lab4\src\app\CubeApp.cpp(250,32): warning C4100: "btnState": неиспользованный параметр
+  FrameTimer.cpp
+  Dx12Utils.cpp
+  MathUtils.cpp
+  MeshGenerator.cpp
+C:\Users\HUAWEI\Documents\CG_sem3\lab4\src\math\MeshGenerator.cpp(94,16): warning C4456: объявление "i" скрывает предыдущее локальное объявление
+      C:\Users\HUAWEI\Documents\CG_sem3\lab4\src\math\MeshGenerator.cpp(63,9):
+       см. объявление "i"
+  
+C:\Users\HUAWEI\Documents\CG_sem3\lab4\src\math\MeshGenerator.cpp(474,38): warning C4100: "stackCount": неиспользованный параметр
+C:\Users\HUAWEI\Documents\CG_sem3\lab4\src\math\MeshGenerator.cpp(473,47): warning C4100: "bottomRadius": неиспользованный параметр
+C:\Users\HUAWEI\Documents\CG_sem3\lab4\src\math\MeshGenerator.cpp(510,41): warning C4100: "stackCount": неиспользованный параметр
+C:\Users\HUAWEI\Documents\CG_sem3\lab4\src\math\MeshGenerator.cpp(509,70): warning C4100: "topRadius": неиспользованный параметр
+  TextureLoaderDDS.cpp
+C:\Users\HUAWEI\Documents\CG_sem3\lab4\src\resources\TextureLoaderDDS.cpp(1222,15): warning C4100: "isCubeMap": неиспользованный параметр
+C:\Users\HUAWEI\Documents\CG_sem3\lab4\src\resources\TextureLoaderDDS.cpp(1680,12): warning C4100: "forceSRGB": неиспользованный параметр
+  CameraComponent.cpp
+  Создание кода...
+  LINK : не найден или не выполнена сборка C:\Users\HUAWEI\Documents\CG_sem3\lab4\bin\x64\Debug\DirectX12CustomLib.exe при последней инкрементной компоновке; выполняется полная компоновка
+  DirectX12CustomLib.vcxproj -> C:\Users\HUAWEI\Documents\CG_sem3\lab4\bin\x64\Debug\DirectX12CustomLib.exe
